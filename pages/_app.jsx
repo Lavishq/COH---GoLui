@@ -54,7 +54,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <WagmiConfig client={wagmiClient} >
       <RainbowKitProvider chains={chains}>
-      <div class="relative container mx-auto p-8 bg-black text-white">
+      <div className="relative container mx-auto p-8 bg-black text-white">
         <Navbar />
       </div>
         <Component {...pageProps} />
